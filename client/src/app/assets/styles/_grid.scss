@@ -1,0 +1,61 @@
+// SOLUTION from https://stackoverflow.com/questions/49596113/ant-design-react-bootstrap-grid-container-concept
+// but need to import variables from Ant and convert code from less to sass
+
+// Media queries breakpoints
+// Extra small screen / phone
+$screen-xs: 480px;
+$screen-xs-min: $screen-xs;
+
+// Small screen / tablet
+$screen-sm: 576px;
+$screen-sm-min: $screen-sm;
+
+// Medium screen / desktop
+$screen-md: 768px;
+$screen-md-min: $screen-md;
+
+// Large screen / wide desktop
+$screen-lg: 992px;
+$screen-lg-min: $screen-lg;
+
+// Extra large screen / full hd
+$screen-xl: 1200px;
+$screen-xl-min: $screen-xl;
+
+// Extra extra large screen / large desktop
+$screen-xxl: 1600px;
+$screen-xxl-min: $screen-xxl;
+
+// provide a maximum
+$screen-xs-max: ($screen-sm-min - 1px);
+$screen-sm-max: ($screen-md-min - 1px);
+$screen-md-max: ($screen-lg-min - 1px);
+$screen-lg-max: ($screen-xl-min - 1px);
+$screen-xl-max: ($screen-xxl-min - 1px);
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: auto;
+}
+
+@mixin make-container($minWidth, $breakpoint) {
+  @media (min-width: $minWidth) {
+    .container {
+      max-width: $breakpoint;
+    }
+  }
+}
+
+@include make-container($screen-xs-min, $screen-xs);
+@include make-container($screen-sm-min, $screen-sm);
+@include make-container($screen-md-min, $screen-md);
+@include make-container($screen-lg-min, $screen-lg);
+@include make-container($screen-xl-min, $screen-xl);
+@include make-container($screen-xxl-min, $screen-xxl); // Optional
+/*==================================================================*/
+.w-100 {
+  width: 100% !important;
+}

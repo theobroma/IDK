@@ -1,0 +1,53 @@
+@import 'tachyons-flexbox';
+@import 'tachyons-spacing';
+
+// Local
+@import '_variables';
+@import '_typography';
+@import '_grid';
+@import '_fonts';
+@import '_radio';
+
+#root {
+  background: #f3f7fa;
+  min-height: 100%;
+}
+
+body {
+  font-family: OpenSans-Regular;
+}
+
+@media (min-width: 768px) {
+  .border-md-right {
+    border-right: 1px solid #eceff1;
+  }
+}
+
+.ant-btn-primary {
+  background: #ff6d00;
+  border: 1px solid #ff6d00;
+  &:hover {
+    background: #ff8124;
+    border: 1px solid #ff8124;
+  }
+}
+
+.ant-btn {
+  height: 100%;
+}
+
+.control-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: OpenSans-SemiBold;
+  font-weight: 600;
+  color: $c-charcoal;
+  // color: red;
+  margin-bottom: 5px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}

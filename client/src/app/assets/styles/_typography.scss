@@ -1,0 +1,136 @@
+.os-regular {
+  font-family: OpenSans-Regular, sans-serif !important;
+  font-weight: 400;
+}
+.os-bold {
+  font-family: OpenSans-Bold, sans-serif !important;
+  font-weight: 700;
+}
+.os-semibold {
+  font-family: OpenSans-SemiBold, sans-serif !important;
+  font-weight: 600;
+}
+.os-extrabold {
+  font-family: OpenSans-ExtraBold, sans-serif !important;
+  font-weight: 800;
+}
+
+.f-8 {
+  font-size: 8px;
+}
+
+.f-9 {
+  font-size: 9px;
+}
+
+.f-10 {
+  font-size: 10px;
+}
+
+.f-11 {
+  font-size: 11px;
+}
+
+.f-12 {
+  font-size: 12px;
+}
+
+.f-12-i {
+  font-size: 12px !important;
+}
+
+.f-13 {
+  font-size: 13px;
+}
+
+.f-14 {
+  font-size: 14px;
+}
+
+.f-15 {
+  font-size: 15px;
+}
+
+.f-16 {
+  font-size: 16px;
+}
+
+.f-17 {
+  font-size: 17px;
+}
+
+.f-18 {
+  font-size: 18px;
+}
+
+.f-19 {
+  font-size: 19px;
+}
+
+.f-20 {
+  font-size: 20px;
+}
+
+.f-21 {
+  font-size: 21px;
+}
+
+.f-22 {
+  font-size: 22px;
+}
+
+.f-24 {
+  font-size: 24px;
+}
+
+.f-26 {
+  font-size: 26px;
+}
+
+.f-32 {
+  font-size: 32px;
+}
+
+.f-34 {
+  font-size: 34px;
+}
+
+.f-36 {
+  font-size: 36px;
+}
+
+.f-46 {
+  font-size: 46px;
+}
+
+.f-90 {
+  font-size: 90px;
+}
+
+.tuc {
+  text-transform: uppercase;
+}
+
+.tlc {
+  text-transform: lowercase;
+}
+
+.ttc {
+  text-transform: capitalize;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-charcoal {
+  color: $c-charcoal;
+}
+
+.color-nobel {
+  color: $c-nobel;
+}
+
+.color-balihai {
+  color: $c-balihai;
+}

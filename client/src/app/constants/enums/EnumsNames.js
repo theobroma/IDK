@@ -1,0 +1,1 @@
+export const STOPS_COUNT_TYPE = 'STOPS_COUNT_TYPE';

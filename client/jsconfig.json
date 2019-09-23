@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src/app",
+    "paths": {
+      "~/*": ["*"]
+    },
+    "target": "ES6",
+    "module": "commonjs",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["dist", "**/node_modules/*"]
+}
